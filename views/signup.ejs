@@ -1,0 +1,41 @@
+
+
+<link rel="stylesheet" href="/css/signup.css">
+
+<div id="outer-container">
+            <h2>Sign Up</h2>
+            <div id="inner-container">
+                    <form id="RegistrationForm" action="/doctor/register" method="post">
+                        <div class="sap">
+                            <div class="outerDiv">
+                                <div class="innerDiv">
+                                <p>Enter your name :</p>
+                                <input type="text" name="Username" placeholder="name" required="true" >
+                                </div>
+                                <div class="innerDiv">
+                                <p>Enter your email:</p>
+                                <input type="email" name="email" placeholder="email" required="true" >
+                                </div>
+                            </div>
+                            <div class="outerDiv">
+                                <div class="innerDiv">
+                                <p>Enter your password:</p>
+                                <input type="text" name="Password" placeholder="password" required="true" >
+                                </div>
+                                <div class="innerDiv">
+                                <p>Enter your ConformPassword:</p>
+                                <input type="text" name="ConformPassword" placeholder="Conformpassword" required="true">
+                                </div>
+                            </div>
+                        </div>
+                        <p> Enter your Designation:</p>
+                        <input type="text"name="designation" placeholder="Designation" required="true" >
+                        <p>
+                            <button type="submit" id="btns">Sign Up</button>
+                        </p>
+                    </form>
+            </div>
+            </div>
+
+
+<script src="/js/signup.js"></script>

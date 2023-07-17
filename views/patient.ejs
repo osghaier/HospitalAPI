@@ -1,0 +1,30 @@
+
+<link rel="stylesheet" href="/css/patient.css">
+<div id="patientBox">
+    <div id="patientDetails">
+        <h3>Patient Details</h3>
+        <div id="details">
+            <p>Name : <%=patient.Name%></p>
+            <p>Mobile Number : <%=patient.MobileNumber%></p>
+            <p>Age : <%=patient.Age%></p>
+            <p>Gender : <%=patient.Gender%></p>
+            <p>Address : <%=patient.Address%></p>
+            <p>Email : <%=patient.Email%></p>
+        </div>
+    </div>
+        <h3>Patient All Reports</h3>
+        <div id="patientDetails">
+            <% for(let report of patient.AllReports){%>
+                <div id="details">
+                    <p>Blood Group : <%=report.BloodGroup%></p>
+                    <p>Test Type : <%=report.TestType%></p>
+                    <p>precaution : : <%=report.MoreInfo%></p>
+                    <p>Doctor Name : <%=report.CreatedBy%></p>
+                    <p>Status : <%=report.status%></p>
+                </div>
+            <%}%>
+        </div>
+</div>
+
+
+<script src="/js/patient.js"></script>

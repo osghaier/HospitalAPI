@@ -1,0 +1,60 @@
+body{
+    background-color: whitesmoke;
+    background-image: url('../static/bckImg.jpg');
+}
+#outer{
+    width: 100%;
+    /* border:2px solid red; */
+    text-align: center;
+}
+#outer #patientDetails{
+    border: 2px solid white;
+    width: 90%;
+    margin: 2%;
+    margin-left: 4%;
+    color: white;
+    border-radius: 10px;
+    padding: 1%;
+}
+
+#outer #newReport{
+    border: 2px solid white;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 2%;
+    /* color: white; */
+    border-radius: 10px;
+    padding: 1%;
+    background-color: lightgrey;
+}
+#details{
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap:nowrap;
+    padding: 2%;
+    font-size: medium;
+    background-color: white;
+    color: black;
+}
+#outerRepo{
+    border: 2px solid white;
+    width: 70%;
+    margin-left: 12%;
+    padding: 2%;
+    color: black;
+    /* background-color: white; */
+}
+#innerRepo{
+    display: flex; 
+    justify-content: space-between;
+    padding: 2%;
+}
+#innerRepo input{
+    width: 30%;
+    font-size: medium;
+}
+button{
+    font-size: large;
+}
+/*# sourceMappingURL=doctor.css.map */

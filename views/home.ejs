@@ -1,0 +1,30 @@
+<link rel="stylesheet" href="/css/home.css">
+<div id="SearchBar">
+    <h3>Search Patient Details</h3>
+    <div id="searchdiv">
+        <form id="SearchForm">
+            <label for="Pname">Patient Name : </label>
+            <input type="text" name="Pname" id="Pname"required="true">
+            <label for="Mnumber">Mobile Number : </label>
+            <input type="text" name="Mnumber" id="Mnumber"required="true">
+            <button type="submit" id="Search">Search</button>
+        </form>
+    </div>
+    <div id="registerbox">
+    
+    </div>
+    
+</div>
+
+<div id="allPatientsList">
+    <h3>Check Up Done</h3>
+    <% for(let patient of allPatients){%>
+        <div id="patientDiv">
+            <p>Patient Name : <%=patient.Name%></p>
+            <p>Mobile Number : <%=patient.MobileNumber%></p>
+            <p>Gunder : <%=patient.Gender%></p>
+        </div>
+    <%}%>
+</div>
+
+<script src="/js/home.js"></script>

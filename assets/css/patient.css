@@ -1,0 +1,36 @@
+
+
+body{
+    /* background-color: whitesmoke; */
+    background-image: url('../static/bckImg.jpg');
+}
+#patientBox{
+    width: 100%;
+    /* border:2px solid red; */
+    text-align: center;
+    color: white;
+}
+#patientBox #patientDetails{
+    border: 2px solid white;
+    width: 90%;
+    margin: 2%;
+    margin-left: 4%;
+    border-radius: 10px;
+    padding: 1%;
+}
+
+
+#details{
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap:nowrap;
+    padding: 2%;
+    font-size: medium;
+    background-color: white;
+    color: black;
+    margin: 1%;
+    border-radius: 10px;
+}
+
+/*# sourceMappingURL=patient.css.map */

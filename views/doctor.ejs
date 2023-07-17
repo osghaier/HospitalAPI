@@ -1,0 +1,41 @@
+<link rel="stylesheet" href="/css/doctor.css">
+<div id="outer">
+    <div id="patientDetails">
+        <h3>Patient Details</h3>
+        <div id="details">
+            <p>Name : <%=patient.Name%></p>
+            <p>Mobile Number : <%=patient.MobileNumber%></p>
+            <p>Age : <%=patient.Age%></p>
+            <p>Gender : <%=patient.Gender%></p>
+            <p>Address : <%=patient.Address%></p>
+            <p>Email : <%=patient.Email%></p>
+        </div>
+    </div>
+    <div id="newReport">
+        <h3>Patient New Report</h3>
+        <div id="outerRepo">
+            <form action="/patient/registerNewReport" method="post">
+                <div id="innerRepo">
+                    <label for="bloodG">Blood Group : </label>
+                    <input type="text" name="bloodG" id="bloodG">
+                    <label for="testType">Type of Test : </label>
+                    <input type="text" name="test" id="testType">
+                </div>
+                <div id="innerRepo">
+                    <label for="detailsTest">More Info : </label>
+                    <input type="text" id="detailsTest" name="moreInfo">
+                    <label for="status">Status : </label>
+                    <input type="text" name="status" id="status">
+                </div>
+                <div id="innerRepo">
+                    <input type="text" name="CreateBy" style="display:none" value="<%=doctor.UserName%>">
+                    <input type="text" name="id" style="display:none" value="<%=patient._id%>">
+                </div>
+                <button type="submit">Create Report</button>
+            </form>
+        </div>   
+    </div>
+</div>
+
+
+<script src="/js/doctor.js"></script>

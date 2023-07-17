@@ -1,0 +1,29 @@
+body{
+  background-image: url('../static/bckImg.jpg');
+}
+#outer-container {
+  width: 90%;
+  margin: 5%;
+  color: white;
+  text-align: center;
+}
+#outer-container #inner-container {
+  width: 50%;
+  border: 5px solid white;
+  /* background-color: lightgrey; */
+  padding: 1%;
+  border-radius: 10px;
+  /* box-shadow: 0px 0px 5px grey; */
+  margin-left: 25%;
+  font-size: larger;
+}
+input{
+  width: 50%;
+  padding: 1%;
+}
+
+#btns{
+  padding: 1%;
+  font-size: medium;
+}
+/*# sourceMappingURL=signin.css.map */

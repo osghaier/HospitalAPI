@@ -1,0 +1,62 @@
+body{
+    background-image: url('../static/bckImg.jpg');
+}
+#SearchBar{
+    width: 90%;
+    margin-left: 5%;
+    /* border: 2px solid rgb(62, 57, 67); */
+    text-align: center;
+    color: white;
+}
+#SearchBar #registerbox{
+    width: 80%;
+    margin-left: 10%;
+    /* border: 3px solid white; */
+    padding: 5px;
+}
+#SearchBar #searchdiv{
+    width: 80%;
+    margin-left: 9%;
+    /* border: 2px solid black; */
+    padding: 1%;
+    display: flex;
+    justify-content: space-evenly;
+}
+#allPatientsList{
+    width: 90%;
+    margin: 5%;
+    /* border: 2px solid red; */
+    color: white;
+    text-align: center;
+}
+
+#registerForm{
+    display: flex;
+    justify-content: space-evenly;
+    /* border: 2px solid red; */
+    flex-wrap: wrap;
+    padding: 2%;
+    background-color:lightgrey;
+    border-radius: 10px;
+    color: black;
+}
+
+.innerBox{
+    width: 30%;
+    padding: 1%;
+}
+
+#patientDiv{
+    border: 2px solid white;
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 10px;
+    background-color: lightgrey;
+    color: black;
+    margin: 1%;
+}
+#outer{
+    border: 2px solid white;
+    padding: 5px;
+}
+/*# sourceMappingURL=home.css.map */

@@ -1,0 +1,10 @@
+
+#outer-container{
+    width: 100%;
+
+    #inner-container{
+        width: 20%;
+        display: flex;
+        justify-content: space-between;
+    }
+}

@@ -1,0 +1,28 @@
+
+
+#outer-container{
+    width: 100%;
+
+    #inner-container{
+        width: 20%;
+
+        
+.sap{
+    display: flex;
+    flex-direction: column;
+     border: 2px solid pink; 
+    justify-content: space-between;
+  }
+  
+  .outerDiv{
+     border: 2px solid black; 
+    display:flex;
+  }
+  
+  .innerDiv{
+     border: 2px solid greenyellow; 
+    width: 100%;
+  }
+    }
+}
+

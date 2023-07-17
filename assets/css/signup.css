@@ -1,0 +1,42 @@
+body{
+  background-image: url('../static/bckImg.jpg');
+}
+#outer-container {
+  width: 90%;
+  margin: 5%;
+  /* border: 2px solid greenyellow;  */
+  text-align: center;
+  color: white;
+}
+#outer-container #inner-container {
+  width: 50%;
+  border: 5px solid white;
+  /* background-color: lightgrey; */
+  padding: 2%;
+  border-radius: 10px;
+  font-size: large;
+  margin-left: 25%;
+}
+input{
+  width: 80%;
+  padding: 2%;
+
+}
+
+#btns{
+  padding: 1%;
+  font-size: medium;
+}
+#outer-container #inner-container .sap {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+#outer-container #inner-container .outerDiv {
+  display: flex;
+}
+#outer-container #inner-container .innerDiv {
+  width: 100%;
+}
+
+/*# sourceMappingURL=signup.css.map */
