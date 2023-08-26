@@ -5,10 +5,9 @@ pipeline {
    stages {
         
 
-	stage("Verification du version Maven") {
+	stage("install dependencies") {
            steps {
-                sh "npm init"
-              
+                npm install 
             }
 
         }
